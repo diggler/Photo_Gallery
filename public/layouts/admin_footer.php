@@ -1,7 +1,5 @@
-</div>
-	<div id="footer">
-    	<span>Copyright <?php echo date("Y", time()); ?>, Daniel Proczko</span>
     </div>
-
-</body>
+    <div id="footer">Copyright <?php echo date("Y", time()); ?>, Kevin Skoglund</div>
+  </body>
 </html>
+<?php if(isset($database)) { $database->close_connection(); } ?>

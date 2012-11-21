@@ -1,8 +1,7 @@
 <?php require_once("../includes/initialize.php"); ?>
 
-<?php include_layout_template("header.php"); ?>
-
-<?php
+<?php include_layout_template('header.php'); ?>
+<?
 $user = User::find_by_id(1);
 echo $user->full_name();
 
@@ -15,5 +14,4 @@ foreach($users as $user) {
 }
 
 ?>
-
 <?php include_layout_template('footer.php'); ?>
