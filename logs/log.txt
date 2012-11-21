@@ -1,0 +1,2 @@
+2012-11-19 23:21:50 | Clear: Cleared the log file. 
+2012-11-20 00:19:01 | Login: diggler logged in. 
